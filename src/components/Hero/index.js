@@ -8,6 +8,7 @@ import {HeroContainer,
     HeroHeader,
     HeroH1,
     HeroH2,
+    HeroH3,
     HeroP,
     HeroBtnWrapper,
     ArrowForward,
@@ -28,12 +29,13 @@ const HeroSection = () => {
             </HeroBackground>
             <HeroContent>
                 <HeroHeader>
-                    <HeroH1>BenjaminGoddard</HeroH1>
+                    <HeroH1>Benjamin</HeroH1>
                     <HeroH2>.is()</HeroH2>
                 </HeroHeader>
-                <HeroP>
-                    An aspiring frontend developer, web-designer, and tech enthusiast.
-                </HeroP>
+                <HeroP>Benjamin Goddard</HeroP>
+                <HeroH3>
+                    An aspiring <b>frontend developer, web-designer,</b> and <b>tech enthusiast.</b>
+                </HeroH3>
                 <HeroBtnWrapper>
                     <Btn to="about" 
                         onMouseEnter={onHover} 

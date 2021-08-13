@@ -23,7 +23,7 @@ const MobileNav = ({ isOpen, toggle }) => {
                     <MobileNavLink to='contact' onClick={toggle}>.contact( )</MobileNavLink>
                 </MobileNavMenu>
                 <MobileNavBtnWrap>
-                    <MobileNavRoute to='/message'>Message Me</MobileNavRoute>
+                    <MobileNavRoute to='/message_me'>Message Me</MobileNavRoute>
                 </MobileNavBtnWrap>
             </MobileNavWrapper>
         </MobileNavContainer>
