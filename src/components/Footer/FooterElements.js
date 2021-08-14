@@ -60,6 +60,7 @@ export const FooterLinkS = styled(LinkS)`
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 14px;
+    cursor: pointer;
 
     &:hover {
         color: #E22866;
@@ -72,6 +73,7 @@ export const FooterLinkR = styled(LinkR)`
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 14px;
+    cursor: pointer;
 
     &:hover {
         color: #E22866;
@@ -83,6 +85,7 @@ export const FooterA = styled.a`
     color: #AEADAE;
     font-size: 14px;
     text-decoration: none;
+    cursor: pointer;
 
     &:hover {
         color: #E22866;
@@ -138,6 +141,7 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 24px;
+    cursor: pointer;
 
     &:hover {
         color: #E22866;

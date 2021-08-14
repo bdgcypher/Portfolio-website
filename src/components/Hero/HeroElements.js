@@ -8,7 +8,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 1000px;
+    height: 800px;
     position: relative;
     z-index: 1;
 
@@ -46,14 +46,13 @@ export const HeroContent = styled.div`
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 `;
 
 export const HeroHeader = styled.div`
     z-index: 4;
     max-width: 1200px;
     position: relative;
-    padding: 8px 24px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -61,23 +60,23 @@ export const HeroHeader = styled.div`
 
 export const HeroH1 = styled.h1`
     color: #fff;
-    font-size: 56px;
-    text-align: center;
+    font-size: 36px;
+    text-align: left;
 
     @media screen and (max-width: 768px) {
         font-size: 35px;
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 25px;
+        font-size: 24px;
     }
 `;
 
 export const HeroH2 = styled.h2`
 color: #E22866;
-font-size: 56px;
+font-size: 40px;
 font-weight: 400;
-text-align: center;
+text-align: left;
 
 @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -91,9 +90,10 @@ text-align: center;
 export const HeroH3 = styled.p`
     margin-top: 30px;
     color: #D7D6D7;
-    font-size: 32px;
-    text-align: center;
-    max-width: 700px;
+    font-size: 48px;
+    font-weight: 300;
+    text-align: left;
+    max-width: 600px;
 
     @media screen and (max-width: 768px) {
         font-size: 28px;
@@ -101,8 +101,8 @@ export const HeroH3 = styled.p`
     }
     
     @media screen and (max-width: 480px) {
-        font-size: 18px;
-        max-width: 350px;
+        font-size: 28px;
+        max-width: 400px;
     }
 `;
 
@@ -110,7 +110,7 @@ export const HeroP = styled.p`
     margin-top: 0px;
     color: #E22866;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
     max-width: 500px;
 
     @media screen and (max-width: 768px) {

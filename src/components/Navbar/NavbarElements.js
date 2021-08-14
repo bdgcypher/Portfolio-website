@@ -88,6 +88,11 @@ export const NavLinks = styled(LinkS)`
         color: #6C233B;
         border-bottom: 3px solid #E22866;
     }
+
+    &.active {
+        color: #6C233B;
+        border-bottom: 3px solid #E22866;
+    }
 `;
 
 export const NavBtn = styled.nav`

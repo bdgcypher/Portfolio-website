@@ -34,7 +34,7 @@ const HeroSection = () => {
                 </HeroHeader>
                 <HeroP>Benjamin Goddard</HeroP>
                 <HeroH3>
-                    An aspiring <b>frontend developer, web-designer,</b> and <b>tech enthusiast.</b>
+                    An aspiring <b>Frontend developer, Designer,</b> and <b>Tech enthusiast.</b>
                 </HeroH3>
                 <HeroBtnWrapper>
                     <BtnS to="about" 
@@ -42,6 +42,11 @@ const HeroSection = () => {
                         onMouseLeave={onHover}
                         primary={true}
                         dark={true}
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                        offset={-80}
                     >
                         Jump In {hover ? <ArrowForward /> : <ArrowRight />}
                     </BtnS>

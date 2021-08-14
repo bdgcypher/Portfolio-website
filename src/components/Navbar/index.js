@@ -31,22 +31,22 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='top'>BG</NavLogo>
+                    <NavLogo to='top' smooth={true} duration={500} spy={true} exact="true" offset={-80}>BG</NavLogo>
                     <Hamburger onClick={toggle}>
                         <FaBars/>
                     </Hamburger>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about">.about( )</NavLinks>
+                            <NavLinks to="about" smooth={true} duration={500} spy={true} exact="true" offset={-80} >.about( )</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="discover">.discover( )</NavLinks>
+                            <NavLinks to="discover" smooth={true} duration={500} spy={true} exact="true" offset={-80}>.discover( )</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="services">.services( )</NavLinks>
+                            <NavLinks to="services" smooth={true} duration={500} spy={true} exact="true" offset={-80}>.services( )</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="contact">.contact( )</NavLinks>
+                            <NavLinks to="contact" smooth={true} duration={500} spy={true} exact="true" offset={-80}>.contact( )</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>

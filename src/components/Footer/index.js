@@ -36,7 +36,7 @@ const Footer = () => {
                             <FooterLinkR to="/message_me">Feedback</FooterLinkR>
                             <FooterLinkR to="/message_me">Email</FooterLinkR>
                             <FooterLinkR to="/message_me">Contact</FooterLinkR>
-                            <FooterLinkS to="top">Back to Top <FaArrowCircleUp/></FooterLinkS>
+                            <FooterLinkS to="top" smooth={true} duration={500} spy={true} exact="true" offset={-80}>Back to Top <FaArrowCircleUp/></FooterLinkS>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
