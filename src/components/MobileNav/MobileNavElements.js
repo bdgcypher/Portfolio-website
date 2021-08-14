@@ -65,7 +65,8 @@ export const MobileNavLink = styled(LinkS)`
 
     &:hover {
         color: #6C233B;
-        transition: all 0.2s ease-in-out;
+        border-left: 4px solid #E22866;
+        transition: color 0.2s ease-in-out;
     }
 `;
 

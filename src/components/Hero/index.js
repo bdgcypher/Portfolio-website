@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Video from '../../videos/video.mp4';
-import {Btn} from '../ButtonElements'
+import {BtnS} from '../ButtonElements'
 import {HeroContainer,
     HeroBackground,
     VideoBackground,
@@ -23,7 +23,7 @@ const HeroSection = () => {
     }
 
     return (
-        <HeroContainer>
+        <HeroContainer id="top">
             <HeroBackground>
                 <VideoBackground autoPlay loop muted src={Video} type='Video/mp4' />
             </HeroBackground>
@@ -37,14 +37,14 @@ const HeroSection = () => {
                     An aspiring <b>frontend developer, web-designer,</b> and <b>tech enthusiast.</b>
                 </HeroH3>
                 <HeroBtnWrapper>
-                    <Btn to="about" 
+                    <BtnS to="about" 
                         onMouseEnter={onHover} 
                         onMouseLeave={onHover}
                         primary={true}
                         dark={true}
                     >
                         Jump In {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Btn>
+                    </BtnS>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
