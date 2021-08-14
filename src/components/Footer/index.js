@@ -27,15 +27,15 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterItemTitle>Learn More</FooterItemTitle>
-                            <FooterLinkR to="/">Request Resume</FooterLinkR>
+                            <FooterLinkR to="/portfolio/message_me">Request Resume</FooterLinkR>
                             <FooterLinkS to="discover">Projects</FooterLinkS>
                             <FooterLinkS to="about">My Story</FooterLinkS>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterItemTitle>Contact Me</FooterItemTitle>
-                            <FooterLinkR to="/message_me">Feedback</FooterLinkR>
-                            <FooterLinkR to="/message_me">Email</FooterLinkR>
-                            <FooterLinkR to="/message_me">Contact</FooterLinkR>
+                            <FooterLinkR to="/portfolio/message_me">Feedback</FooterLinkR>
+                            <FooterLinkR to="/portfolio/message_me">Email</FooterLinkR>
+                            <FooterLinkR to="/portfolio/message_me">Contact</FooterLinkR>
                             <FooterLinkS to="top">Back to Top <FaArrowCircleUp/></FooterLinkS>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
@@ -58,7 +58,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="/">BG</SocialLogo>
+                        <SocialLogo to="/portfolio">BG</SocialLogo>
                         <WebesiteRights>benjamingoddard © {new Date().getFullYear()} All rights reserved.</WebesiteRights>
                         <SocialIcons>
                             <SocialIconLink href="//www.instagram.com/ben_jammin1967/" target="_blank" aria-label="Instagram">
