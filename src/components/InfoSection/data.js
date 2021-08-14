@@ -45,7 +45,7 @@ export const homeObj3 = {
     header: "Let's work together",
     description: 'I am excited to learn about your next project! Reach out and we can build it together.',
     buttonLabel: 'Contact me',
-    buttonLink: '/portfolio/message_me',
+    buttonLink: '/message_me',
     imgStart: false,
     img: Img3,
     alt: 'creative',
