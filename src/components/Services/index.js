@@ -17,7 +17,7 @@ import {
 const Services = () => {
     return (
         <ServicesContainer id="services">
-            <ServicesHeader>BenjaminGoddard.services( )</ServicesHeader>
+            <ServicesHeader>Benjamin.services( )</ServicesHeader>
             <ServicesH1>What can I do for You?</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
