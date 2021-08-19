@@ -93,6 +93,7 @@ export const ServicesIcon = styled.img`
 `;
 
 export const ServicesHeader = styled.p`
+    margin-top: 50px;
     font-size: 16px;
     color: #E22866;
 `;
@@ -119,4 +120,23 @@ export const ServicesP = styled.p`
     font-size: 1rem;
     text-align: center;
     margin: 10px;
+`;
+
+export const Icon = styled(Link)`
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 32px;
+    margin-bottom: 14px;
+    margin-left: 32px;
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.8rem;
+
+    @media screen and (max-width: 480px) {
+        margin-left: 16px;
+        margin-top: 8px;
+    }
 `;

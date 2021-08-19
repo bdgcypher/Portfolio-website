@@ -14,11 +14,13 @@ import {
     ServicesIcon,
     ServicesH2,
     ServicesP,
+    Icon,
 } from './ProjectElements';
 
 const Projects = () => {
     return (
         <ServicesContainer id="top">
+            <Icon to="/" id="top">BG</Icon>
             <ServicesHeader>Benjamin.projects( )</ServicesHeader>
             <ServicesH1>See what I can do</ServicesH1>
             <ServicesWrapper>
