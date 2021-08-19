@@ -24,12 +24,12 @@ const Projects = () => {
             <ServicesHeader>Benjamin.projects( )</ServicesHeader>
             <ServicesH1>See what I can do</ServicesH1>
             <ServicesWrapper>
-                <ServicesCard to="/traverse-web">
+                <ServicesCardExternal target="_blank" href="https://bdgcypher.github.io/traverse-web/">
                     <ServicesIcon src={Img}/>
                     <ServicesH2>TRVSE</ServicesH2>
                     <ServicesP>Traverse is a travel-guide type website frontend that displays my expertise in creating eye-catching UI with clean-cut cards, 
                         fantastic footers, and creative content. Built with React.js, Traverse is a simple, yet elegant begginer javascript Web Project.</ServicesP>
-                </ServicesCard>
+                </ServicesCardExternal>
                 <ServicesCardExternal target="_blank" href="https://tip-web.herokuapp.com/">
                     <ServicesIcon src={Img2}/>
                     <ServicesH2>TiP</ServicesH2>
