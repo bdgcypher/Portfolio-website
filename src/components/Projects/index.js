@@ -26,7 +26,7 @@ const Projects = () => {
             <ServicesWrapper>
                 <ServicesCardExternal target="_blank" href="https://bdgcypher.github.io/traverse-web/">
                     <ServicesIcon src={Img}/>
-                    <ServicesH2>TRVSE</ServicesH2>
+                    <ServicesH2>TRAVRSE</ServicesH2>
                     <ServicesP>Traverse is a travel-guide type website frontend that displays my expertise in creating eye-catching UI with clean-cut cards, 
                         fantastic footers, and creative content. Built with React.js, Traverse is a simple, yet elegant begginer javascript Web Project.</ServicesP>
                 </ServicesCardExternal>
