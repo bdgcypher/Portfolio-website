@@ -46,6 +46,7 @@ export const ServicesCard = styled(Link)`
     color: #000;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
+    z-index: 3;
 
     &:hover {
         transform: scale(1.02);
@@ -72,6 +73,7 @@ export const ServicesCardExternal = styled.a`
     color: #000;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
+    z-index: 3;
 
     &:hover {
         transform: scale(1.02);
