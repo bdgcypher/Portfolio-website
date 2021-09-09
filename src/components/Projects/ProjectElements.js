@@ -92,6 +92,7 @@ export const ServicesIcon = styled.img`
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
+    z-index: 3;
 `;
 
 export const ServicesHeader = styled.p`
