@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 
 export const Container = styled.div`
     padding-bottom: 50px;
-    z-index: 0;
+    z-index: 3;
     overflow: hidden;
     background: #110308;
 `;
@@ -27,6 +27,7 @@ export const Icon = styled(LinkR)`
     color: #fff;
     font-weight: 400;
     font-size: 1.8rem;
+    z-index: 3;
 
     @media screen and (max-width: 480px) {
         margin-left: 16px;
@@ -50,7 +51,7 @@ export const Form = styled.form`
     max-width: 400px;
     height: auto;
     width: 100%;
-    z-index: 1;
+    z-index: 3;
     display: grid;
     margin: 0 auto;
     padding: 80px 32px;

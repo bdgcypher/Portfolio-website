@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Encode+Sans+Expanded:wght@100;400;700&family=Roboto&display=swap" rel="stylesheet">
     <title>Benjamin Goddard</title>
   </head>
-  <body>
+  <body onload="screenLoaded()">
     <style>
 
         /*  scrollbar width */
@@ -53,9 +53,93 @@
         ::-webkit-scrollbar-thumb:hover {
             background:  #2c2f33;
         }
+
+        #background {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background: #0B090A;
+          transition: all .5s;
+          transition-delay: 2s;
+          justify-content: center;
+          z-index: 999;
+        }
+
+        .loader {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          position: relative;
+          border: 4px solid #E22866;
+          top: 50%;
+          left: 50%;
+          animation: loader 2s infinite ease;
+        }
+
+        .loader-inner {
+          vertical-align: top;
+          display: inline-block;
+          width: 100%;
+          background-color: #E22866;
+          animation: loader-inner 2s infinite ease-in;
+        }
+
+        @keyframes loader {
+          0% {
+            transform: rotate(0deg);
+          }
+          
+          25% {
+            transform: rotate(180deg);
+          }
+          
+          50% {
+            transform: rotate(180deg);
+          }
+          
+          75% {
+            transform: rotate(360deg);
+          }
+          
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+
+        @keyframes loader-inner {
+          0% {
+            height: 0%;
+          }
+          
+          25% {
+            height: 0%;
+          }
+          
+          50% {
+            height: 100%;
+          }
+          
+          75% {
+            height: 100%;
+          }
+          
+          100% {
+            height: 0%;
+          }
+        }
+
+        #background.loaded {
+          opacity: 0;
+          z-index: 1;
+      }
     </style>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <div id="background">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -66,5 +150,11 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    
   </body>
+  <script>
+    function screenLoaded() {
+      document.getElementById("background").classList.add("loaded")
+    }
+  </script>
 </html>

@@ -134,6 +134,7 @@ export const Icon = styled(Link)`
     color: #fff;
     font-weight: 400;
     font-size: 1.8rem;
+    z-index: 3;
 
     @media screen and (max-width: 480px) {
         margin-left: 16px;
