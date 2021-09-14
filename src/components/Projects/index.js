@@ -39,7 +39,7 @@ const Projects = () => {
                 <ServicesCardExternal target="_blank" href="https://bdgcypher.github.io/indigo/">
                     <ServicesIcon src={Img5}/>
                     <ServicesH2>INDIGO</ServicesH2>
-                    <ServicesP>Indigo is an ecommerce based frontend web application created to familiarize myself with and demonstrate use of TailwindUI template elemants and is built on top off the REACTR.js framework.</ServicesP>
+                    <ServicesP>Indigo is an ecommerce based frontend web application created to familiarize myself with and demonstrate use of TailwindUI template elements and is built on top off the REACTR.js framework.</ServicesP>
                 </ServicesCardExternal>
                 <ServicesCard>
                     <ServicesIcon src={Img3}/>
