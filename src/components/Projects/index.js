@@ -3,6 +3,7 @@ import Img from '../../images/traverse.jpg';
 import Img2 from '../../images/tip.jpg';
 import Img3 from '../../images/slate.png';
 import Img4 from '../../images/bg.jpg';
+import Img5 from '../../images/indigo.jpg';
 
 import { 
     ServicesContainer,
@@ -34,6 +35,11 @@ const Projects = () => {
                     <ServicesIcon src={Img2}/>
                     <ServicesH2>TiP</ServicesH2>
                     <ServicesP>I spent the last 6 months as a paid intern at TiP (Transparency in Politics) building the frontend and half of the backend of their web app with Python, Django, HTML5, and CSS</ServicesP>
+                </ServicesCardExternal>
+                <ServicesCardExternal target="_blank" href="https://bdgcypher.github.io/indigo/">
+                    <ServicesIcon src={Img5}/>
+                    <ServicesH2>INDIGO</ServicesH2>
+                    <ServicesP>Indigo is an ecommerce based frontend web application created to familiarize myself with and demonstrate use of TailwindUI template elemants and is built on top off the REACTR.js framework.</ServicesP>
                 </ServicesCardExternal>
                 <ServicesCard>
                     <ServicesIcon src={Img3}/>
