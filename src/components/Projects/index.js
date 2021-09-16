@@ -4,6 +4,7 @@ import Img2 from '../../images/tip.jpg';
 import Img3 from '../../images/slate.png';
 import Img4 from '../../images/bg.jpg';
 import Img5 from '../../images/indigo.jpg';
+import Img6 from '../../images/ice.jpg';
 
 import { 
     ServicesContainer,
@@ -25,8 +26,13 @@ const Projects = () => {
             <ServicesHeader>Benjamin.projects( )</ServicesHeader>
             <ServicesH1>See what I can do</ServicesH1>
             <ServicesWrapper>
+                <ServicesCardExternal target="_blank" href="https://tip-web.herokuapp.com/">
+                    <ServicesIcon src={Img2}/>
+                    <ServicesH2>TiP</ServicesH2>
+                    <ServicesP>I spent the last 6 months as a paid intern at TiP (Transparency in Politics) building the frontend and half of the backend of their web app with Python, Django, HTML5, and CSS</ServicesP>
+                </ServicesCardExternal>
                 <ServicesCardExternal target="_blank" href="https://bdgcypher.github.io/ice/">
-                    <ServicesIcon src={Img}/>
+                    <ServicesIcon src={Img6}/>
                     <ServicesH2>ICE</ServicesH2>
                     <ServicesP>I created ICE as a frontend project to practice tailwindcss. Based in react.js and using KitwindUI components, I created ICE in just a few hours. Simple, yet eye-pleasing, ICE is a finance style landing page.</ServicesP>
                 </ServicesCardExternal>
@@ -35,11 +41,6 @@ const Projects = () => {
                     <ServicesH2>TRAVRSE</ServicesH2>
                     <ServicesP>Traverse is a travel-guide type website frontend that displays my expertise in creating eye-catching UI with clean-cut cards, 
                         fantastic footers, and creative content. Built with React.js, Traverse is a simple, yet elegant beginner javascript Web Project.</ServicesP>
-                </ServicesCardExternal>
-                <ServicesCardExternal target="_blank" href="https://tip-web.herokuapp.com/">
-                    <ServicesIcon src={Img2}/>
-                    <ServicesH2>TiP</ServicesH2>
-                    <ServicesP>I spent the last 6 months as a paid intern at TiP (Transparency in Politics) building the frontend and half of the backend of their web app with Python, Django, HTML5, and CSS</ServicesP>
                 </ServicesCardExternal>
                 <ServicesCardExternal target="_blank" href="https://bdgcypher.github.io/indigo/">
                     <ServicesIcon src={Img5}/>
