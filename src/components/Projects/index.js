@@ -29,7 +29,9 @@ const Projects = () => {
                 <ServicesCardExternal target="_blank" href="https://tip-web.herokuapp.com/">
                     <ServicesIcon src={Img2}/>
                     <ServicesH2>TiP</ServicesH2>
-                    <ServicesP>I spent the last 6 months as a paid intern at TiP (Transparency in Politics) building the frontend and half of the backend of their web app with Python, Django, HTML5, and CSS</ServicesP>
+                    <ServicesP>I spent the last 6 months as a paid intern at TiP (Transparency in Politics) building the frontend and half of the backend of their web app with Python, Django, HTML5, and CSS.
+                        My work included all frontend design and integration, animations, hover and transition effects. I was also integral to the backend. From processing data and writing user-handling logic to server-side and database integration with MySQL.
+                    </ServicesP>
                 </ServicesCardExternal>
                 <ServicesCardExternal target="_blank" href="https://bdgcypher.github.io/ice/">
                     <ServicesIcon src={Img6}/>
