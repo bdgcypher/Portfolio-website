@@ -25,6 +25,11 @@ const Projects = () => {
             <ServicesHeader>Benjamin.projects( )</ServicesHeader>
             <ServicesH1>See what I can do</ServicesH1>
             <ServicesWrapper>
+                <ServicesCardExternal target="_blank" href="https://bdgcypher.github.io/ice/">
+                    <ServicesIcon src={Img}/>
+                    <ServicesH2>ICE</ServicesH2>
+                    <ServicesP>I created ICE as a frontend project to practice tailwindcss. Based in react.js and using KitwindUI components, I created ICE in just a few hours. Simple, yet eye-pleasing, ICE is a finance style landing page.</ServicesP>
+                </ServicesCardExternal>
                 <ServicesCardExternal target="_blank" href="https://bdgcypher.github.io/traverse-web/">
                     <ServicesIcon src={Img}/>
                     <ServicesH2>TRAVRSE</ServicesH2>
@@ -39,7 +44,7 @@ const Projects = () => {
                 <ServicesCardExternal target="_blank" href="https://bdgcypher.github.io/indigo/">
                     <ServicesIcon src={Img5}/>
                     <ServicesH2>INDIGO</ServicesH2>
-                    <ServicesP>Indigo is an ecommerce based frontend web application created to familiarize myself with and demonstrate use of TailwindUI template elements and is built on top off the REACTR.js framework.</ServicesP>
+                    <ServicesP>Indigo is an ecommerce based frontend web application created to familiarize myself with and demonstrate use of TailwindUI template elements and is built on top off the React.js framework.</ServicesP>
                 </ServicesCardExternal>
                 <ServicesCard>
                     <ServicesIcon src={Img3}/>
