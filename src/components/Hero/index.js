@@ -34,7 +34,7 @@ const HeroSection = () => {
                 </HeroHeader>
                 <HeroP>Benjamin Goddard</HeroP>
                 <HeroH3>
-                    An aspiring <b>Frontend developer, Designer,</b> and <b>Tech enthusiast.</b>
+                    <b>Frontend developer, Designer,</b> and <b>Tech enthusiast.</b>
                 </HeroH3>
                 <HeroBtnWrapper>
                     <BtnS to="about" 

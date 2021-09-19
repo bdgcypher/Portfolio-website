@@ -55,7 +55,7 @@ export const ServicesCard = styled(Link)`
     }
 
     @media screen and (max-width: 784px) {
-        height: 500px;
+        height: auto;
         width: 250px;
     }
 `;
@@ -82,7 +82,7 @@ export const ServicesCardExternal = styled.a`
     }
 
     @media screen and (max-width: 784px) {
-        height: 500px;
+        height: auto;
         width: 250px;
     }
 `;

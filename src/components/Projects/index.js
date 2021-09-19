@@ -33,6 +33,14 @@ const Projects = () => {
                         My work included all frontend design and integration, animations, hover and transition effects. I was also integral to the backend. From processing data and writing user-handling logic to server-side and database integration with MySQL.
                     </ServicesP>
                 </ServicesCardExternal>
+                <ServicesCard to="/">
+                    <ServicesIcon src={Img4}/>
+                    <ServicesH2>benjamingoddard.me</ServicesH2>
+                    <ServicesP>That's right, this portfolio website was made by none other than yours truly. This webpage domonstrates knowledge in React.js, 
+                        web-hooks, HTML, CSS, Animations, Scroll Effects, multiple page integration, and Excellent Web-Design. From start to finish, from sketch 
+                        to html frame, to deployed Application, I did it all.
+                    </ServicesP>
+                </ServicesCard>
                 <ServicesCardExternal target="_blank" href="https://bdgcypher.github.io/ice/">
                     <ServicesIcon src={Img6}/>
                     <ServicesH2>ICE</ServicesH2>
@@ -54,14 +62,6 @@ const Projects = () => {
                     <ServicesH2>SLATE</ServicesH2>
                     <ServicesP>(Link coming soon...) SLATE was my first ever Django website. An E-commerce style site with base, user, 
                         and admin pages and amenities such as User Authentication, Account Recovery, a basic light/dark theme switcher and database quiries and search filters.</ServicesP>
-                </ServicesCard>
-                <ServicesCard to="/">
-                    <ServicesIcon src={Img4}/>
-                    <ServicesH2>benjamingoddard.me</ServicesH2>
-                    <ServicesP>That's right, this portfolio website was made by none other than yours truly. This webpage domonstrates knowledge in React.js, 
-                        web-hooks, HTML, CSS, Animations, Scroll Effects, multiple page integration, and Excellent Web-Design. From start to finish, from sketch 
-                        to html frame, to deployed Application, I did it all.
-                    </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

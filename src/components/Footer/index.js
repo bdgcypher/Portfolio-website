@@ -28,7 +28,7 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterItemTitle>Learn More</FooterItemTitle>
                             <FooterLinkR to="/message_me">Request Resume</FooterLinkR>
-                            <FooterLinkS to="/projects">Projects</FooterLinkS>
+                            <FooterLinkR to="/projects">Projects</FooterLinkR>
                             <FooterLinkS to="about">My Story</FooterLinkS>
                         </FooterLinkItems>
                         <FooterLinkItems>

@@ -9,7 +9,7 @@ export const homeObj1 = {
     lightTextDescription: true,
     topLine: 'Benjamin.about()',
     header: 'Creative, Excited, Hardworking',
-    description: 'I am a young, hardworking programmer who is growing rapidly in web development skills. I have a year and 1/2+ of experience with python and Django REST framework, as well as html and css. I am currently learning the REACT.js framework (with which this website was built). I love technology, I am creative and innovative, and (a bonus tidbit), I love ultimate frisbee!',
+    description: 'I am a young, hardworking programmer who is growing rapidly in web development skills. I have a year and 1/2+ of experience with python and Django, as well as html and css. I am currently learning the REACT.js framework (with which this website was built). I have about 6 months of experience with React. I love technology, I am creative and innovative, and (a bonus tidbit), I love parkour!',
     buttonLabel: 'Request my Resume',
     buttonLink: '/message_me',
     imgStart: false,

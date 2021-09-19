@@ -33,7 +33,7 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={Icon4}/>
                     <ServicesH2>Backend Development</ServicesH2>
-                    <ServicesP>I write backend code to filter and handle your data. (currently only using python, django, and mySQL, but learning REACT.js)</ServicesP>
+                    <ServicesP>I write backend code to filter and handle your data. (currently only using python, django, and mySQL, but learning javascript)</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>
