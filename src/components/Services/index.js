@@ -2,6 +2,7 @@ import React from 'react'
 import Icon2 from '../../images/svg-2.svg'
 import Icon3 from '../../images/svg-3.svg'
 import Icon4 from '../../images/svg-4.svg'
+import '../../App.css'
 
 import { 
     ServicesContainer,
