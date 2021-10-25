@@ -42,7 +42,7 @@ const Projects = () => {
                         to html frame, to deployed Application, I did it all.
                     </ServicesP>
                 </ServicesCard>
-                <ServicesCardExternal target="_blank" href="https://benjamingoddard-xplore.netlify.app/xplore">
+                <ServicesCardExternal target="_blank" href="https://benjamingoddard.netlify.app/xplore">
                     <ServicesIcon src={Img7}/>
                     <ServicesH2>Xplore</ServicesH2>
                     <ServicesP>My latest React.js project. Xplore is an impressive travel website frontend comprised of 11 pages, loads of animations and effects, 
