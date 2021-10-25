@@ -40,22 +40,24 @@ export const ServicesCard = styled(Link)`
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    height: 600px;
+    height: 250px;
     width: 500px;
     text-decoration: none;
     color: #000;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-    transition: all 0.2s ease-in-out;
+    box-shadow: 0 15px 26px 0 rgba(0, 0, 0, 1), 0 16px 26px 0 rgba(0, 0, 0, 1);
+    transition: all 1s ease-in-out;
     z-index: 3;
+    overflow: hidden;
 
     &:hover {
+        height: 500px;
         transform: scale(1.02);
-        transition: all 0.2s ease-in-out;
+        transition: all 1s ease-in-out;
         cursor: pointer;
     }
 
     @media screen and (max-width: 784px) {
-        height: auto;
+        height: 100%;
         width: 250px;
     }
 `;
@@ -67,22 +69,24 @@ export const ServicesCardExternal = styled.a`
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    height: 600px;
+    height: 250px;
     width: 500px;
     text-decoration: none;
     color: #000;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-    transition: all 0.2s ease-in-out;
+    box-shadow: 0 15px 26px 0 rgba(0, 0, 0, 1), 0 15px 26px 0 rgba(0, 0, 0, 1);
+    transition: all 1s ease-in-out;
     z-index: 3;
+    overflow: hidden;
 
     &:hover {
         transform: scale(1.02);
-        transition: all 0.2s ease-in-out;
+        transition: all 1s ease-in-out;
+        height: 500px;
         cursor: pointer;
     }
 
     @media screen and (max-width: 784px) {
-        height: auto;
+        height: 100%;
         width: 250px;
     }
 `;

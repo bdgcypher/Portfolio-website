@@ -5,6 +5,7 @@ import Img3 from '../../images/slate.png';
 import Img4 from '../../images/bg.jpg';
 import Img5 from '../../images/indigo.jpg';
 import Img6 from '../../images/ice.jpg';
+import Img7 from '../../images/xplore.jpg';
 
 import { 
     ServicesContainer,
@@ -29,8 +30,8 @@ const Projects = () => {
                 <ServicesCardExternal target="_blank" href="https://tip-web.herokuapp.com/">
                     <ServicesIcon src={Img2}/>
                     <ServicesH2>TiP</ServicesH2>
-                    <ServicesP>I spent the last 6 months as a paid intern at TiP (Transparency in Politics) building the frontend and half of the backend of their web app with Python, Django, HTML5, and CSS.
-                        My work included all frontend design and integration, animations, hover and transition effects. I was also integral to the backend. From processing data and writing user-handling logic to server-side and database integration with MySQL.
+                    <ServicesP>I spent the last 9 months as a paid intern at TiP (Transparency in Politics) building their web app with Python, Django, HTML5, and CSS.
+                        My work included all frontend design and integration, animations, and transition effects. I was also integral to the backend. From processing data and writing user-handling logic to database integration with MySQL.
                     </ServicesP>
                 </ServicesCardExternal>
                 <ServicesCard to="/">
@@ -41,6 +42,13 @@ const Projects = () => {
                         to html frame, to deployed Application, I did it all.
                     </ServicesP>
                 </ServicesCard>
+                <ServicesCardExternal target="_blank" href="https://benjamingoddard-xplore.netlify.app/xplore">
+                    <ServicesIcon src={Img7}/>
+                    <ServicesH2>Xplore</ServicesH2>
+                    <ServicesP>My latest React.js project. Xplore is an impressive travel website frontend comprised of 11 pages, loads of animations and effects, 
+                        beautiful design elements and color scheming, and lots of work to make this "practice" project as close to industry deployable as you can get.
+                    </ServicesP>
+                </ServicesCardExternal>
                 <ServicesCardExternal target="_blank" href="https://bdgcypher.github.io/ice/">
                     <ServicesIcon src={Img6}/>
                     <ServicesH2>ICE</ServicesH2>
