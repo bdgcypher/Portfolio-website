@@ -65,12 +65,6 @@ const Projects = () => {
                     <ServicesH2>INDIGO</ServicesH2>
                     <ServicesP>Indigo is an ecommerce based frontend web application created to familiarize myself with and demonstrate use of TailwindUI template elements and is built on top off the React.js framework.</ServicesP>
                 </ServicesCardExternal>
-                <ServicesCard>
-                    <ServicesIcon src={Img3}/>
-                    <ServicesH2>SLATE</ServicesH2>
-                    <ServicesP>(Link coming soon...) SLATE was my first ever Django website. An E-commerce style site with base, user, 
-                        and admin pages and amenities such as User Authentication, Account Recovery, a basic light/dark theme switcher and database quiries and search filters.</ServicesP>
-                </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>
     )

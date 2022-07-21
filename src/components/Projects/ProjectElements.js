@@ -39,6 +39,7 @@ export const ServicesCard = styled(Link)`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    line-height: 1.6;
     border-radius: 10px;
     height: 250px;
     width: 500px;
@@ -50,7 +51,7 @@ export const ServicesCard = styled(Link)`
     overflow: hidden;
 
     &:hover {
-        height: 500px;
+        height: 550px;
         transform: scale(1.02);
         transition: all 1s ease-in-out;
         cursor: pointer;
@@ -68,8 +69,9 @@ export const ServicesCardExternal = styled.a`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    line-height: 1.6;
     border-radius: 10px;
-    height: 250px;
+    height: 260px;
     width: 500px;
     text-decoration: none;
     color: #000;
@@ -81,7 +83,7 @@ export const ServicesCardExternal = styled.a`
     &:hover {
         transform: scale(1.02);
         transition: all 1s ease-in-out;
-        height: 500px;
+        height: 550px;
         cursor: pointer;
     }
 
